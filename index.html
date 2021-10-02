@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warhammer RPG Character chart</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/327a0d490c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!-- Menu with log off option, select characters -->
+    </header>
+    <main>
+        <div class="section-1">
+
+            <div class="char-name">
+                <label for="char-name">Name: </label>
+                <input id="char-name" type="text" placeholder="Eduardo Humerfelger">
+
+            </div>
+            <div class="char-species">Species:
+                <select name="species-select" id="species-select">
+                        <option value="default" selected>select race</option>
+                        <option value="human">Human</option>
+                        <option value="dwarf">Dwarf</option>
+                        <option value="elf">Elf</option>
+                        <option value="halfling">Halfling</option>
+                    </select>
+            </div>
+            <div class="char-class">Class:
+                <select name="class-select" id="class-select">
+                        <option value="default" selected>select class</option>
+                        <option value="warrior">Warrior</option>
+                        <option value="academic">Academic</option>
+                        <option value="citizen">Citizen</option>
+                        <option value="labour">Labour</option>
+                    </select>
+            </div>
+
+            <div class="char-career">
+                <label for="char-career">Career: </label>
+                <input type="text" id="char-career" name="career">
+            </div>
+
+            <div class="char-career-level">
+                <label for="char-career-level">Career Level: </label>
+                <input type="text" id="char-career-level" name="career-level">
+            </div>
+
+            <div class="char-career-path">
+                <label for="char-career-path">Career Path: </label>
+                <input type="text" id="char-career-path" name="career-path">
+            </div>
+
+            <div class="char-status">
+                <label for="char-status">Status: </label>
+                <input type="text" id="char-status" name="status">
+            </div>
+
+            <div class="char-age">
+                <label for="char-age">Age: </label>
+                <input type="number" id="char-age" name="age">
+            </div>
+
+            <div class="char-height">
+                <label for="char-height">Height: </label>
+                <input type="number" id="char-height" name="height">
+            </div>
+
+            <div class="char-hair">
+                <label for="char-hair">Hair: </label>
+                <input type="text" id="char-hair" name="hair">
+            </div>
+
+            <div class="char-eyes">
+                <label for="char-eyes">Eyes: </label>
+                <input type="text" id="char-eyes" name="eyes">
+            </div>
+
+
+        </div>
+
+        <div class="section-2">
+            <div class="big-block-1-2-left">
+                <section class="characteristics">
+                    <div class="characteristics-title">
+                        <h3>Characteristics</h3>
+                    </div>
+                    <div class="statistics-block">
+
+                        <div class="characteristic-descr-block descripton-column">
+
+                            <div class="initial">Initial</div>
+                            <div class="advances">Advances</div>
+                            <div class="current">Current</div>
+                            <div class="roll roll-characteristic">Roll d100</div>
+                        </div>
+                        <div class="ws-column column">
+                            <div class="ws-abreviation abrev">WS</div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-initial">
+                            </div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-advances">
+                            </div>
+                            <div class="stats ws-current">32</div>
+                            <button class="dice stats"><i class="fas fa-dice-d20"></i></button>
+
+
+                        </div>
+                        <div class="bs-column column">
+                            <div class="bs-abreviation abrev">BS</div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-initial">
+                            </div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-advances">
+                            </div>
+                            <div class="stats bs-current">32</div>
+                            <button class="dice stats"><i class="fas fa-dice-d20"></i></button>
+                        </div>
+                        <div class="bs-column -column">
+                            <div class="bs-abreviation -abrev">S</div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-initial">
+                            </div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-advances">
+                            </div>
+                            <div class="stats bs-current">32</div>
+                            <button class="dice stats"><i class="fas fa-dice-d20"></i></button>
+                        </div>
+                        <div class="bs-ccolumn">
+                            <div class="bs-abreviatioabrev">T</div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-initial">
+                            </div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-advances">
+                            </div>
+                            <div class="stats bs-current">32</div>
+                            <button class="dice stats"><i class="fas fa-dice-d20"></i></button>
+                        </div>
+                        <div class="bs-columcolumn">
+                            <div class="bs-abreviatioabrev">I</div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-initial">
+                            </div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-advances">
+                            </div>
+                            <div class="stats bs-current">32</div>
+                            <button class="dice stats"><i class="fas fa-dice-d20"></i></button>
+                        </div>
+                        <div class="bs-column char-column">
+                            <div class="bs-abreviatioabrev">Ag</div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-initial">
+                            </div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-advances">
+                            </div>
+                            <div class="stats bs-current">32</div>
+                            <button class="dice stats"><i class="fas fa-dice-d20"></i></button>
+                        </div>
+                        <div class="bs-column char-column">
+                            <div class="bs-abreviatioabrev">Dex</div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-initial">
+                            </div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-advances">
+                            </div>
+                            <div class="stats bs-current">32</div>
+                            <button class="dice stats"><i class="fas fa-dice-d20"></i></button>
+                        </div>
+                        <div class="bs-column -column">
+                            <div class="bs-abreviatibrev">Int</div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-initial">
+                            </div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-advances">
+                            </div>
+                            <div class="stats bs-current">32</div>
+                            <button class="dice stats"><i class="fas fa-dice-d20"></i></button>
+                        </div>
+                        <div class="bs-column olumn">
+                            <div class="bs-abreviation brev">WP</div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-initial">
+                            </div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-advances">
+                            </div>
+                            <div class="stats bs-current">32</div>
+                            <button class="dice stats"><i class="fas fa-dice-d20"></i></button>
+                        </div>
+                        <div class="bs-column olumn">
+                            <div class="bs-abreviation brev">Fel</div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-initial">
+                            </div>
+                            <div class="input-wrapper">
+                                <input type="number" class="stats ws-advances">
+                            </div>
+                            <div class="stats bs-current">32</div>
+                            <button class="dice stats"><i class="fas fa-dice-d20"></i></button>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </section>
+            </div>
+
+            <!-- <div class="big-block-1-2-right">
+                <section class="fate-resil-exp_section">
+
+                    <dev class="fate f_r_e_sub-block test-border">
+                        <h3>Fate</h3>
+                        <div class="fate-blocks">
+
+                            <div class="fate-value-text">Fate
+                                <p class="fate-value">3</p>
+                            </div>
+                        </div>
+
+                        <div class="fortune-blocks">
+                            <div class="fortune-value-text">Fortune
+                                <p class="fortune-value">3</p>
+                            </div>
+                        </div>
+                    </dev>
+
+                    <dev class="resilence f_r_e_sub-block test-border">
+                        <h3>Resilence</h3>
+                        <div class="resilience-blocks">
+
+                        </div>
+                    </dev>
+
+                    <dev class="experience f_r_e_sub-block test-border">
+                        <h3>Experience</h3>
+                    </dev>
+
+                </section>
+
+                <section class="movement_section">
+                    <dev class="movement">
+                        <h3>Movement</h3>
+
+                    </dev>
+                </section>
+            </div> -->
+
+
+
+        </div>
+
+        <div class="section-3">empty</div>
+        <div class="section-4">empty</div>
+
+    </main>
+
+    <footer>
+        <!-- Meaby some rights, contact ect? -->
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
